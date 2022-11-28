@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1411px) {
+    .nav-wraper{
+        width: 45%;
+    }
+
+    .space{
+        width: 10%;
+    }
+
+    .login-wraper{
+        width: 45%
+
+    }
+}
+
+@media screen and (max-width: 1254px) {
+    .nav-wraper{
+        width: 50%;
+    }
+
+    .space{
+        width: 0;
+        display: none;
+    }
+
+    .login-wraper{
+        width: 50%
+
+    }
+}
+
+@media screen and (max-width: 1129px) {
+    .nav-wraper{
+        width: 50%;
+    }
+    .bg-btn{
+        display: none;
+    }
+    .login-wraper{
+        text-align: right;
+        width: 50%;
+    }
+
+    header{
+        padding: 14px 10px;
+    }
+}
+
+@media screen and (max-width: 990px){
+   .nav-wraper, .login-wraper{
+        display: none;
+   }
+   .mobile-logo-header{
+        display: inline-block;
+   }
+
+    .mobile-wraper{
+        display: block;
+    }
+
+    .footer-navbar .center{
+        max-width: none !important;
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .part1{
+        padding: 1% 1% 1% 0;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .mosaico, .mosaico2, .mosaico3, .mosaico4{
+        flex-direction: column !important;
+        max-height: none !important;
+    }
+    .part1, .part2{
+        width: 100% !important;
+    }
+    .part1{
+        padding: 0;
+    }
+    .part2 h1{
+        margin-top: 22px !important;
+
+    }
+    .part2 p{
+        font-size: 14px !important;
+        padding: 32px 0!important;
+        font-weight: 600 !important;
+    }
+    .mobile-footer-navbar{
+        display: block !important;
+    }
+    section.footer-navbar{
+        display: none !important;
+    }
+
+    .links ul li{
+        width: 100%;
+        margin-bottom: 20px;
+        border: none !important;
+    }
+
+    .links{
+        padding: 0 4px !important;
+    }
+
+}

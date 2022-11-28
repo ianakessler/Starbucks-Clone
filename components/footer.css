@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+
+.footer-navbar .center{
+    max-width: 1325px;
+}
+
+.footer-wraper{
+    display: flex;
+}
+
+.footer-wraper .footer-list{
+    max-width: 190px;
+    margin: 0 32px;
+
+}
+
+.footer-list h2{
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 24px;
+    color: #32312d
+}
+
+.footer-list ul{
+    list-style-type: none;
+}
+
+.footer-list li{
+    margin-bottom: 22px;
+}
+
+.footer-list a{
+    font-size: 14px;
+    text-decoration: none;
+    margin-bottom: 24px !important;
+    color: rgba(0,0,0,.56);
+    font-weight: 500;
+}
+
+.footer-list a:hover{
+    color: black
+}
+
+.footer-list img{
+    width: 120px;
+}
+
+.mobile-footer-navbar{
+    display: none;
+}
+
+.mobile-toggle{
+    padding: 32px 24px 0 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-footer{
+    padding: 0 24px;
+    display: block;
+}
+
+.list-footer ul{
+    list-style: none;
+}
+
+.list-footer li{
+    margin-top: 18px;
+    width: 100%;
+}
+
+.list-footer ul a{
+    font-size: 14px;
+    text-decoration: none;
+    margin-bottom: 24px !important;
+    color: rgba(0,0,0,.56);
+    font-weight: 500;
+}
+
+footer{
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 70%), 0 2px 8px 0 rgb(0 0 0 / 50%), 0 1px 5px 0 rgb(0 0 0 / 10%);
+    padding: 32px 0;
+}
+
+.hr{
+    width: 84%;
+    border-top: 2px solid rgba(0, 0, 0, 0.127);
+    height: 1px;
+    margin:  10px auto;
+}
+
+.midias{
+    width: 100%;
+    max-width: 1325px;
+    margin: 0 auto;
+    padding: 32px;
+}
+
+.midias ul{
+    list-style: none;
+}
+
+.midias ul li{
+    display: inline-block;
+    margin-right: 14px;
+}
+
+.midias ul li img{
+    width: 32px;
+}
+
+.midias ul li:hover{
+    transition: .3s;
+    scale: 1.2;
+    filter: grayscale(1);
+}
+
+.links{
+    width: 100%;
+    max-width: 1325px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.links ul{
+    list-style-type: none;
+}
+
+.links ul li{
+    display: inline-block;
+    border-left: 1px solid black;
+    padding: 0 12px;
+}
+
+.links ul li a{
+    color: rgba(0,0,0,.87);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.links ul li a:hover{
+    color: rgba(0, 0, 0, 0.694);
+}
+
+.copy{
+    width: 100%;
+    max-width: 1325px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.copy p{
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(140, 140, 140);
+    font-size: 13px;
+}
+
+

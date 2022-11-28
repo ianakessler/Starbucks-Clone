@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+
+.slider-container{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.slider-container img{
+    position: relative;
+    width: 100%;
+}
+
+.sessao1{
+    margin-top: 3.2rem;
+}
+
+.chamada1{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 32px 48px;
+    text-align: center;
+    background-color: #d4e9e2 !important;
+}
+
+.chamada1 p{
+    font-size: 18px;
+    max-width: 880px;
+    margin: 0 auto;
+}
+
+.chamada1 button{
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-size: 16px;
+    padding: 7px 16px;
+    margin-top: 32px;
+    text-transform: capitalize;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.chamada1 button:hover{
+    background-color: #2bbbad72;
+    box-shadow: 0 3px 3px 0 rgb(0 0 0 / 14%), 0 1px 7px 0 rgb(0 0 0 / 12%), 0 3px 1px -1px rgb(0 0 0 / 20%);;
+}
+
+.sessao2{
+    margin-top: 3.2rem;
+}
+
+.mosaico{
+    display: flex;
+    flex-direction: row;
+    background-color: #d4e9e2 !important;
+    margin-bottom: 32px;
+}
+
+.mosaico2{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #d4e9e2 !important;
+    margin-bottom: 32px;
+    max-height: 420px;
+}
+
+
+.mosaico3{
+    display: flex;
+    flex-direction: row;
+    background-color: #d4e9e2 !important;
+    margin-bottom: 32px;
+    max-height: 420px;
+}
+
+.mosaico4{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #d4e9e2 !important;
+    margin-bottom: 32px;
+    max-height: 420px;
+
+}
+
+.part1{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.part1 img{
+    width: 100%;
+}
+
+.part2{
+    display: flex;
+    width: 50%;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+
+.part2 h1{
+    font-weight: 500;
+    color: #1E3932;
+    padding: 2rem;
+}
+
+.part2 p{
+    max-width: 600px;
+    padding: 2.8rem 10%;
+    line-height: 2em;
+    color: #1E3932;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+.part2 button{
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 7.6px 15px;
+    background-color: transparent;
+    transition: .3s;
+    color: #1E3932;
+    margin-bottom: 2.8rem;
+
+}
+
+
+
+.part2 button a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    color: #1E3932;
+
+}
+
+.part2 button:hover{
+    scale: .9;
+    box-shadow: 0 3px 3px 0 rgb(0 0 0 / 14%), 0 1px 7px 0 rgb(0 0 0 / 12%), 0 3px 1px -1px rgb(0 0 0 / 20%);;
+}
+
+.mosaico2 .part2 h1, .mosaico3 .part2 h1,.mosaico4 .part2 h1{
+    padding: 0;
+}
+
+.mosaico2 .part2 p, .mosaico3 .part2 p, .mosaico4 .part2 p{
+    padding: 1.5rem;
+}
+
+
+

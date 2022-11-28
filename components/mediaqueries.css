@@ -110,3 +110,9 @@
     }
 
 }
+
+@media screen and (max-width: 365px){
+    .midias{
+        padding-right: 0 !important;
+    }
+}

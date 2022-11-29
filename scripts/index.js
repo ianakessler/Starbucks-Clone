@@ -1,7 +1,2 @@
-$(function(){
+// Criação dos elemento html 
 
-    $('a').click(function(){
-        return false;
-    });
-
-});

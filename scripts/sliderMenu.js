@@ -16,7 +16,7 @@ $(function(){
     $('#rewards').click(function(){
         $('#list-rewards').slideToggle(500);
     });
-    
+
     
     $('.menu-img').click(function(){
         $('aside').animate({width: 'toggle'})

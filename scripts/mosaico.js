@@ -1,5 +1,0 @@
-function createMosaico(img){
-    return `
-        
-    `
-}

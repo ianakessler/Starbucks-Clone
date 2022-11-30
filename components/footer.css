@@ -48,6 +48,7 @@
 
 .mobile-footer-navbar{
     display: none;
+    margin-bottom: 32px !important;
 }
 
 .mobile-toggle{
@@ -58,11 +59,12 @@
 
 .list-footer{
     padding: 0 24px;
-    display: block;
+    display: none;
 }
 
 .list-footer ul{
     list-style: none;
+
 }
 
 .list-footer li{

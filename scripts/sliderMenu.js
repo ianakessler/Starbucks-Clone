@@ -18,7 +18,7 @@ $(function(){
     });
 
     
-    $('.menu-img').click(function(){
+    $('.menu-img, .close').click(function(){
         $('aside').animate({width: 'toggle'})
     });
 

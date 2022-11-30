@@ -77,7 +77,7 @@
         width: 100% !important;
     }
     .slider-container{
-        height: 350px !important;
+        height: 330px !important;
     }
 }
 
@@ -147,9 +147,15 @@
     }
 }
 
+@media screen and (max-width: 600px) {
+    .slider-container{
+        height: 250px !important;
+    }
+}
+
 @media screen and (max-width: 550px) {
     .slider-container{
-        height: 240px !important;
+        height: 220px !important;
     }
 
 }
@@ -165,7 +171,7 @@
     
 }
 
-@media screen and (max-width: 365px){
+@media screen and (max-width: 410){
     .midias{
         padding-right: 0 !important;
     }
